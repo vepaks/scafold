@@ -6,7 +6,7 @@
    * cd src
    * touch index.js
    * cd -
-2. Setup dev enviroment variables
+2. Setup dev environment variables
    * npm i -D nodemon 
    * * in package.json ->   "scripts": {
      "start": "nodemon src/index.js"
@@ -30,4 +30,10 @@
    * * mkdir layouts
    * * touch main.hbs
    * add partial folder 
-   * fix static paths
+     * fix static paths
+7. Add controllers folder with controller
+   * mkdir controllers
+   * * touch homeController.js
+8. Add DB connection
+   * npm i mongoose
+   * connect to mongoose
