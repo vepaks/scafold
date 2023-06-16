@@ -37,3 +37,10 @@
 8. Add DB connection
    * npm i mongoose
    * connect to mongoose
+9. Authentication
+   * add user controller
+   * add controllers to routes
+   * fix navigation on header
+   * render login page
+   * render register page
+10. Add 

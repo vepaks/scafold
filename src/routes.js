@@ -1,8 +1,8 @@
 const routes = require("express").Router();
 const homeController = require("./controllers/homeController");
-
-// TODO add controller routes
+const userController = require("./controllers/userController");
 
 routes.use(homeController);
+routes.use("/users", userController);
 
 module.exports = routes;
