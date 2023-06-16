@@ -30,4 +30,4 @@
    * * mkdir layouts
    * * touch main.hbs
    * add partial folder 
-   * 
+   * fix static paths
