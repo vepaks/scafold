@@ -20,3 +20,4 @@
    * add routes 
    * * touch routes.js
 4. Add static resources
+5. Add views with ready html
