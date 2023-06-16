@@ -45,3 +45,7 @@
    * render register page
 10. Add User model
 11. Add user manager
+    * require to userController 
+12. Fix forms in login and register pages
+13. Add login and register post actions
+14. 
