@@ -43,4 +43,5 @@
    * fix navigation on header
    * render login page
    * render register page
-10. Add 
+10. Add User model
+11. Add user manager
