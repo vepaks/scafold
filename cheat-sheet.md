@@ -21,3 +21,13 @@
    * * touch routes.js
 4. Add static resources
 5. Add views with ready html
+6. Add express-handlebars view engine
+   * npm i express-handlebars
+   * add to express and configure extensions
+   * config views folder 
+   * add main layout
+   * * cd src/views
+   * * mkdir layouts
+   * * touch main.hbs
+   * add partial folder 
+   * 

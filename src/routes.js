@@ -1,9 +1,9 @@
-const routes = require('express').Router();
+const routes = require("express").Router();
 
 // TODO add controller routes
 
-routes.get('/', (req, res) => {
-    res.send('Hello World!')
-})
+routes.get("/", (req, res) => {
+  res.send("you dumb!");
+});
 
 module.exports = routes;
