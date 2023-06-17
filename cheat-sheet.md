@@ -63,3 +63,5 @@
     * npm i jsonwebtoken
     * promisify jsonwebtoken 
       * mkdir lib
+      * create secret
+      * generate token in manager.login
