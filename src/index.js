@@ -4,6 +4,8 @@ const path = require("path");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 
+const { auth } = require("./middlewares/authMiddleware");
+
 const routes = require("./routes");
 
 const app = express();
@@ -26,8 +28,10 @@ mongoose
 app.use(express.static(path.resolve(__dirname, "public")));
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(auth);
+
 app.use(routes);
 
-app.listen(5000, () => {
-  console.log("Example app listening on http://localhost:5000!");
+app.listen( 5010, () => {
+  console.log("Example app listening on http://localhost:5010!");
 });

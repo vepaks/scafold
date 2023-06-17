@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const userManager = require("../managers/userManager");
+//TODO change 'token' withe variable from config
 
 router.get("/login", (req, res) => {
   res.render("users/login");
@@ -29,6 +30,7 @@ router.post("/register", async (req, res) => {
 
 router.get("/logout", (req, res) => {
   res.clearCookie("token");
-})
+  res.redirect("/");
+});
 
 module.exports = router;
