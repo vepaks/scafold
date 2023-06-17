@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+// Linux OS using MongoDB 4.0 and bcryptjs 2.0
 const bcrypt = require("bcryptjs");
 
 const userSchema = new mongoose.Schema({

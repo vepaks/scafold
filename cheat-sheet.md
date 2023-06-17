@@ -1,4 +1,4 @@
-# Cheat sheet
+# Cheat sheet of one Linux user 
 
 1. Initialize the project
    * npm init --yes
@@ -55,3 +55,11 @@
 16. Implement user manager interface
 17. Hash password
     * npm i bcryptjs
+    * hash password
+18. Login user
+    * find user by username
+    * check password is correct
+19. Generate jwt token
+    * npm i jsonwebtoken
+    * promisify jsonwebtoken 
+      * mkdir lib
