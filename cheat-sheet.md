@@ -79,3 +79,7 @@
     * implement authentication
     * attach decoded token to request
     * handle invalid token response
+21. Authorization middleware
+22. Dynamic navigation
+    * add conditional in main.hbs
+    * add to res.locals
