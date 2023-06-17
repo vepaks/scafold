@@ -65,3 +65,8 @@
       * mkdir lib
       * create secret
       * generate token in manager.login
+20. Return token in cookie
+    * npm i cookie-parser
+    * config cookie-parser in index.js
+    * set cookie with token 
+21. Setup user logout method
