@@ -82,4 +82,17 @@
 21. Authorization middleware
 22. Dynamic navigation
     * add conditional in main.hbs
-    * add to res.locals
+    * add to res locals
+23. Error handler
+    * add /404 page
+    * redirect missing routes to 404 in homeController
+    * add global error handler
+    * /middlewares  `touch errorMiddleware.js`
+    * add error helpers
+        * /src `mkdir utils`
+        * /src/utils `touch errorHelpers.js`
+24. Show error notifications
+    * add error container to main layout
+    * add global error handler
+    * add local error handler
+25. Automatically login after register 

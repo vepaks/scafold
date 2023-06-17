@@ -33,6 +33,7 @@ exports.login = async (username, password) => {
 // Register method
 exports.register = async (userData) => {
   // Check if user exists
+
   const user = await User.findOne({ username: userData.username });
   if (user) {
     throw new Error("User already exists");

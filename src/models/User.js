@@ -5,16 +5,16 @@ const bcrypt = require("bcryptjs");
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
-    required: true,
+    required: [true, 'Username is required'],
     unique: true,
   },
   email: {
     type: String,
-    required: true,
+    required: [true, 'Email is required'],
   },
   password: {
     type: String,
-    required: true,
+    required: [true, 'Password is required'],
   },
 });
 userSchema.virtual("repeatPassword").set(function (value) {

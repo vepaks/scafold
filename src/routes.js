@@ -4,5 +4,9 @@ const userController = require("./controllers/userController");
 
 routes.use(homeController);
 routes.use("/users", userController);
+routes.get("*", (req, res) => {
+  res.redirect('/404')
+})
+
 
 module.exports = routes;
