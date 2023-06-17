@@ -95,4 +95,4 @@
     * add error container to main layout
     * add global error handler
     * add local error handler
-25. Automatically login after register 
+25. Automatically login after register
