@@ -32,6 +32,6 @@ app.use(auth);
 
 app.use(routes);
 
-app.listen( 5010, () => {
-  console.log("Example app listening on http://localhost:5010!");
+app.listen( 3000, () => {
+  console.log("Example app listening on http://localhost:3000!");
 });

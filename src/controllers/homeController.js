@@ -1,4 +1,3 @@
-const { render } = require("express/lib/application");
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
