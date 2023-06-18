@@ -1,4 +1,5 @@
 const User = require("../models/User");
+// TODO: change bcrypjs to bcrypt in package.json too
 const bcrypt = require("bcryptjs");
 const jwt = require("../lib/jwt");
 const { SECRET_KEY } = require("../config/config");

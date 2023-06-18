@@ -2,10 +2,10 @@ const Photo = require("../models/Photo");
 
 
 exports.create = (photoData) => {
-    let photo = new Photo(photoData);
+    let photo = new Photo(photoData)
     return photo.save();
 }
 
 exports.getAll = () => {
-    return Photo.find({}).lean();
+    return Photo.find().populate('owner').lean();
 }
